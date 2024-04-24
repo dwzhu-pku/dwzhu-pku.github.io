@@ -8,15 +8,15 @@ title: About Me
 Hi there 👋, I'm Dawei Zhu, a 2nd year Ph.D. student at Peking University. I'm supervised by Prof. [Sujian Li](https://scholar.google.com/citations?user=RvBDhSwAAAAJ&hl=en&oi=ao).
 Previously, I obtained my bachelor’s degree from School of EECS, Peking University.
 
-My research focuses on advancing LLMs to process extremely long contexts. 
+My research focuses on Long Context Modeling. I believe that the ability to effectively process extremely long contexts is a crucial aspect for future language models and multi-modal models, ultimately leading us closer to AGI. Besides, I'm also interested in a broad range of topics, including Agent, Alignment, and the advancement of Multi-modal models.
 
 ## News
 
-- **[Apr. 2024]** Our new paper "LongEmbed: Extending Embedding Models for Long Context Retrieval" is out. [[paper]](https://arxiv.org/abs/2404.12096) [[repo]](https://github.com/dwzhu-pku/LongEmbed)
+- **[Apr. 2024]** Our new paper [LongEmbed: Extending Embedding Models for Long Context Retrieval](https://arxiv.org/abs/2404.12096) is out.
 
 - **[Jan. 2024]** Our PoSE paper get accepted to ICLR 2024! 🎉🎉🎉
 
-- **[Sept. 2023]** We introduce Positional Skip-wisE training (PoSE) to decouple traing length and target context length, facilitating efficient context window extension of LLMs. [[paper]](https://arxiv.org/abs/2309.10400) [[repo]](https://github.com/dwzhu-pku/PoSE)
+- **[Sept. 2023]** We introduce [Positional Skip-wisE training (PoSE)](https://arxiv.org/abs/2309.10400) to decouple traing length and target context length, facilitating efficient context window extension of LLMs.
 
 ## Education
 
