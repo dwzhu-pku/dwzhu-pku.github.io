@@ -5,14 +5,18 @@ title: About Me
 ---
 ## Biography
 
-Hi there 👋, I'm Dawei Zhu, a 2nd year Ph.D. student at Peking University. I'm supervised by Prof. [Sujian Li](https://scholar.google.com/citations?user=RvBDhSwAAAAJ&hl=en&oi=ao).
+Hi there 👋, I'm Dawei Zhu, a 3rd year Ph.D. student at Peking University. I'm supervised by Prof. [Sujian Li](https://scholar.google.com/citations?user=RvBDhSwAAAAJ&hl=en&oi=ao).
 Previously, I obtained my bachelor’s degree from School of EECS, Peking University.
 
 My research focuses on Long Context Modeling. I believe that the ability to effectively process extremely long contexts is a crucial aspect for future language models and multi-modal models, ultimately leading us closer to AGI. Besides, I'm also interested in a broad range of topics, including Agent, Alignment, and the advancement of Multi-modal models.
 
 ## News
 
+- **[Sept. 2024]** Our LongEmbed paper get accepted to EMNLP 2024! 🎉🎉🎉
+
 - **[Apr. 2024]** Our new paper [LongEmbed: Extending Embedding Models for Long Context Retrieval](https://arxiv.org/abs/2404.12096) is out.
+
+- **[Apr. 2024]** The method introduced in PoSE has been integrated into [Axolotl](https://github.com/axolotl-ai-cloud/axolotl), the popular SFT codebase recommended in [Gemma blog](https://developers.googleblog.com/en/gemma-family-and-toolkit-expansion-io-2024/).
 
 - **[Jan. 2024]** Our PoSE paper get accepted to ICLR 2024! 🎉🎉🎉
 
@@ -55,7 +59,11 @@ For full publication list please refer to my [google scholar](https://scholar.go
 
 ## Academic Service
 
+- Reviewer of ICLR 2025, NeurIPS 2025, EMNLP 2024, ACL 2024, COLING 2024, ICASSP 2023, COLING 2022, etc.
+
 ## Honors and Awards
 
-- "Stars of Tomorrow" from Microsoft (2024)
-- Excellent Graduate of Peking University (2022)
+- **Award of Academic Excellence**, *Peking University* (2024)
+- **Jiukun Scholarship**, *School of Computer Science, Peking University* (2024)
+- **Stars of Tomorrow**, *Microsoft Research Asia* (2024)
+- **Excellent Graduate of Peking University**, *Peking University* (2022)
