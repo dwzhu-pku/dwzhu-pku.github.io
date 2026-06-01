@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="LongRePS">
+  <rect width="640" height="360" fill="#231942"/><g fill="none" stroke="#f5e642" stroke-width="16" stroke-linecap="round"><path d="M110 96h160"/><path d="M110 180h240"/><path d="M110 264h120"/></g>
+  <g fill="#ffffff"><circle cx="372" cy="96" r="22"/><circle cx="454" cy="180" r="22"/><circle cx="330" cy="264" r="22"/></g>
+  <path d="M394 104c44 12 62 34 62 58M434 190c-26 35-52 55-88 66" stroke="#ff8fab" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <text x="72" y="326" font-family="Sora,Arial" font-size="44" font-weight="700" fill="#fff">LongRePS</text>
+</svg>

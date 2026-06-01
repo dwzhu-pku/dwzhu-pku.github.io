@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="DocLens">
+  <rect width="640" height="360" fill="#111827"/><rect x="88" y="50" width="260" height="260" rx="18" fill="#f8fafc"/>
+  <path d="M128 110h170M128 150h160M128 190h116M128 230h150" stroke="#475569" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="416" cy="166" r="72" fill="none" stroke="#38bdf8" stroke-width="24"/><path d="M468 218l74 74" stroke="#38bdf8" stroke-width="28" stroke-linecap="round"/>
+  <text x="72" y="326" font-family="Sora,Arial" font-size="46" font-weight="700" fill="#fff">DocLens</text>
+</svg>

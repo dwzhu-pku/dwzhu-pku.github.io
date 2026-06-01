@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="CoUDA">
+  <rect width="640" height="360" fill="#3b1d0f"/><rect x="86" y="78" width="180" height="170" rx="18" fill="#fff"/><rect x="374" y="78" width="180" height="170" rx="18" fill="#fff"/>
+  <path d="M286 160h68" stroke="#f5e642" stroke-width="18" stroke-linecap="round"/><path d="M337 128l34 32-34 32" stroke="#f5e642" stroke-width="18" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="72" y="326" font-family="Sora,Arial" font-size="48" font-weight="700" fill="#fff">CoUDA</text>
+</svg>

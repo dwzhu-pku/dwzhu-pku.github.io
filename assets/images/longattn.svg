@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="LongAttn">
+  <rect width="640" height="360" fill="#172554"/><g fill="#93c5fd"><rect x="86" y="70" width="68" height="68" rx="10"/><rect x="186" y="70" width="68" height="68" rx="10"/><rect x="286" y="70" width="68" height="68" rx="10"/><rect x="386" y="70" width="68" height="68" rx="10"/><rect x="486" y="70" width="68" height="68" rx="10"/></g>
+  <path d="M120 218c105-92 240-92 400 0" stroke="#f5e642" stroke-width="16" fill="none" stroke-linecap="round"/><circle cx="320" cy="178" r="34" fill="#e36a25"/>
+  <text x="72" y="326" font-family="Sora,Arial" font-size="44" font-weight="700" fill="#fff">LongAttn</text>
+</svg>

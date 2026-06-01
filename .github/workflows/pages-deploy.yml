@@ -39,22 +39,16 @@ jobs:
         id: pages
         uses: actions/configure-pages@v4
 
-      - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: 3.2
-          bundler-cache: true
-
-      - name: Build site
-        run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
-        env:
-          JEKYLL_ENV: "production"
-
-      - name: Test site
+      - name: Build static site
         run: |
-          bundle exec htmlproofer _site \
-            \-\-disable-external=true \
-            \-\-ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
+          mkdir -p "_site${{ steps.pages.outputs.base_path }}"
+          cp index.html "_site${{ steps.pages.outputs.base_path }}/"
+          cp .nojekyll "_site${{ steps.pages.outputs.base_path }}/"
+          cp stylesheet_new.css "_site${{ steps.pages.outputs.base_path }}/"
+          cp image.png "_site${{ steps.pages.outputs.base_path }}/"
+          cp image_ver.png "_site${{ steps.pages.outputs.base_path }}/"
+          cp -R assets "_site${{ steps.pages.outputs.base_path }}/"
+          cp -R images "_site${{ steps.pages.outputs.base_path }}/"
 
       - name: Upload site artifact
         uses: actions/upload-pages-artifact@v3

@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="FairEval">
+  <rect width="640" height="360" fill="#1f2937"/><path d="M320 76v190M190 118h260" stroke="#f5e642" stroke-width="14" stroke-linecap="round"/><path d="M190 118l-72 96h144l-72-96zM450 118l-72 96h144l-72-96z" fill="none" stroke="#fff" stroke-width="12" stroke-linejoin="round"/>
+  <text x="72" y="326" font-family="Sora,Arial" font-size="44" font-weight="700" fill="#fff">FairEval</text>
+</svg>

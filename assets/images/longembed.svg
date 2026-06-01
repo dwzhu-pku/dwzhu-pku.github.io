@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="LongEmbed">
+  <rect width="640" height="360" fill="#052e2b"/><g stroke="#5eead4" stroke-width="4" opacity=".8"><path d="M74 98h492M74 142h492M74 186h492M74 230h492"/></g>
+  <g fill="#ffffff"><rect x="100" y="72" width="84" height="184" rx="12"/><rect x="226" y="92" width="84" height="164" rx="12"/><rect x="352" y="54" width="84" height="202" rx="12"/><rect x="478" y="118" width="84" height="138" rx="12"/></g>
+  <text x="72" y="326" font-family="Sora,Arial" font-size="44" font-weight="700" fill="#fff">LongEmbed</text>
+</svg>

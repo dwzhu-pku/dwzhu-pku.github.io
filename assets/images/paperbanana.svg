@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="PaperBanana">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#f5e642"/><stop offset="1" stop-color="#e36a25"/></linearGradient></defs>
+  <rect width="640" height="360" fill="#171717"/><circle cx="510" cy="60" r="120" fill="url(#g)" opacity=".8"/>
+  <rect x="72" y="62" width="310" height="226" rx="18" fill="#fff"/><path d="M112 116h190M112 154h230M112 192h170M112 230h210" stroke="#222" stroke-width="12" stroke-linecap="round"/>
+  <path d="M402 215c47 22 98 10 126-36 13 61-46 111-104 80-22-12-30-26-22-44z" fill="#f5e642"/>
+  <text x="72" y="326" font-family="Sora,Arial" font-size="44" font-weight="700" fill="#fff">PaperBanana</text>
+</svg>

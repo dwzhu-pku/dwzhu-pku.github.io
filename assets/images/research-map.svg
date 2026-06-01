@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 270" role="img" aria-label="Research interests">
+  <rect width="800" height="270" rx="34" fill="#111216"/>
+  <g fill="none" stroke="#f5e642" stroke-width="3" opacity=".85">
+    <path d="M148 140 C270 42 463 62 638 126"/>
+    <path d="M160 150 C300 218 482 224 650 154"/>
+    <path d="M400 72 L400 202"/>
+  </g>
+  <g font-family="Sora, Arial, sans-serif" font-weight="700" text-anchor="middle">
+    <circle cx="148" cy="140" r="58" fill="#f5e642"/><text x="148" y="132" font-size="24" fill="#111216">Long</text><text x="148" y="162" font-size="24" fill="#111216">Context</text>
+    <circle cx="400" cy="72" r="48" fill="#ffffff"/><text x="400" y="82" font-size="22" fill="#111216">Agents</text>
+    <circle cx="400" cy="202" r="50" fill="#e36a25"/><text x="400" y="199" font-size="19" fill="#ffffff">Retrieval</text><text x="400" y="222" font-size="19" fill="#ffffff">Models</text>
+    <circle cx="650" cy="140" r="58" fill="#3c56f4"/><text x="650" y="136" font-size="21" fill="#ffffff">Research</text><text x="650" y="162" font-size="21" fill="#ffffff">Tools</text>
+  </g>
+</svg>

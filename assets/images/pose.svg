@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-label="PoSE">
+  <rect width="640" height="360" fill="#111216"/><g fill="none" stroke="#e36a25" stroke-width="12" stroke-linecap="round"><path d="M100 210c110-140 250-140 430 0"/><path d="M100 150c110 94 250 94 430 0"/></g>
+  <g fill="#f5e642"><circle cx="112" cy="210" r="18"/><circle cx="250" cy="118" r="18"/><circle cx="404" cy="129" r="18"/><circle cx="528" cy="210" r="18"/></g>
+  <text x="72" y="326" font-family="Sora,Arial" font-size="52" font-weight="700" fill="#fff">PoSE</text>
+</svg>
