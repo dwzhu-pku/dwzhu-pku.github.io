@@ -644,7 +644,7 @@
             el.style.display = 'inline';
             updatedCount++;
           } else {
-            el.style.display = 'none';
+            el.style.display = 'inline';
           }
         });
         

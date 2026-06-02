@@ -1893,7 +1893,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #000;
   font-size: 0.85rem;
   margin-left: 4px;
-  display: none;
+  display: inline;
   font-weight: 500;
 }
 
@@ -2007,7 +2007,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .education-section {
-  max-width: 1400px;
+  max-width: 1120px;
   margin: 0 auto 40px auto;
   padding: 60px 40px 20px 40px;
 }
@@ -2017,8 +2017,45 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .edu-block, .work-block {
+  display: grid;
+  grid-template-columns: 82px minmax(0, 1fr);
+  column-gap: 16px;
+  align-items: start;
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-  padding: 20px 0 14px 0;
+  padding: 18px 0 16px 0;
+}
+
+.timeline-logo {
+  width: 42px;
+  height: 42px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 10px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.04);
+}
+
+.timeline-logo.logo-wide {
+  width: 78px;
+}
+
+.timeline-logo img {
+  width: 82%;
+  height: 82%;
+  display: block;
+  object-fit: contain;
+}
+
+.timeline-logo.logo-wide img {
+  width: 90%;
+  height: 90%;
+}
+
+.timeline-content {
+  min-width: 0;
 }
 
 .edu-header, .work-header {
@@ -2040,19 +2077,23 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
 }
 
-.edu-detail, .work-detail {
+.edu-detail, .education-section .work-detail {
   display: flex;
   justify-content: space-between;
   font-size: 1rem;
-  margin: 2px 0 0 0;
+  margin: 4px 0 0 0;
   font-style: italic;
 }
 
-.edu-degree, .work-title {
+.edu-degree, .education-section .work-title {
   color: #333;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.35;
+  margin: 0;
 }
 
-.edu-time, .work-time {
+.edu-time, .education-section .work-time {
   color: #000;
   font-size: 0.98rem;
   margin-left: 10px;
@@ -2069,7 +2110,19 @@ h1, h2, h3, h4, h5, h6 {
   .education-section {
     padding: 40px 8px 8px 8px;
   }
-  .edu-header, .work-header, .edu-detail, .work-detail {
+  .edu-block, .work-block {
+    grid-template-columns: 64px minmax(0, 1fr);
+    column-gap: 12px;
+  }
+  .timeline-logo {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+  }
+  .timeline-logo.logo-wide {
+    width: 60px;
+  }
+  .edu-header, .work-header, .edu-detail, .education-section .work-detail {
     flex-direction: column;
     align-items: flex-start;
     gap: 2px;
