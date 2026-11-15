@@ -1927,6 +1927,43 @@ h1, h2, h3, h4, h5, h6 {
   background: var(--link-hover-color);
 }
 
+/* PaperBanana Google Research blog: same sparkle treatment as cited-by, in red. */
+.publication-links:has(a.blog-highlight),
+.bigcard-links:has(a.blog-highlight) {
+  flex-wrap: wrap;
+  row-gap: 6px;
+}
+
+.publication-links a.blog-highlight,
+.bigcard-links a.blog-highlight {
+  font-weight: 600;
+  color: #c0392b;
+  white-space: nowrap;
+}
+
+.publication-links a.blog-highlight::before,
+.bigcard-links a.blog-highlight::before {
+  content: "✨";
+  margin-right: 0.28em;
+  font-weight: 400;
+}
+
+.publication-links a.blog-highlight::after,
+.bigcard-links a.blog-highlight::after {
+  width: 100%;
+  background: #d64545;
+}
+
+.publication-links a.blog-highlight:hover,
+.bigcard-links a.blog-highlight:hover {
+  color: var(--link-hover-color);
+}
+
+.publication-links a.blog-highlight:hover::after,
+.bigcard-links a.blog-highlight:hover::after {
+  background: var(--link-hover-color);
+}
+
 .github-stars {
   color: #000;
   font-size: 0.85rem;
