@@ -1857,7 +1857,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .publication-links {
   display: flex;
+  flex-wrap: wrap;
   gap: 12px;
+  row-gap: 6px;
   margin-top: 4px;
 }
 
@@ -1889,33 +1891,39 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
-.publication-links:has(a.cited-by) {
+.publication-links:has(a.cited-by),
+.bigcard-links:has(a.cited-by) {
   flex-wrap: wrap;
   row-gap: 6px;
 }
 
-.publication-links a.cited-by {
+.publication-links a.cited-by,
+.bigcard-links a.cited-by {
   font-weight: 600;
   color: color-mix(in srgb, var(--primary-color) 72%, var(--text-color));
   white-space: nowrap;
 }
 
-.publication-links a.cited-by::before {
+.publication-links a.cited-by::before,
+.bigcard-links a.cited-by::before {
   content: "✨";
   margin-right: 0.28em;
   font-weight: 400;
 }
 
-.publication-links a.cited-by::after {
+.publication-links a.cited-by::after,
+.bigcard-links a.cited-by::after {
   width: 100%;
   background: var(--primary-color);
 }
 
-.publication-links a.cited-by:hover {
+.publication-links a.cited-by:hover,
+.bigcard-links a.cited-by:hover {
   color: var(--link-hover-color);
 }
 
-.publication-links a.cited-by:hover::after {
+.publication-links a.cited-by:hover::after,
+.bigcard-links a.cited-by:hover::after {
   background: var(--link-hover-color);
 }
 
