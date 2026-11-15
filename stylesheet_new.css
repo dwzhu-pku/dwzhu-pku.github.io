@@ -1889,6 +1889,36 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
 }
 
+.publication-links:has(a.cited-by) {
+  flex-wrap: wrap;
+  row-gap: 6px;
+}
+
+.publication-links a.cited-by {
+  font-weight: 600;
+  color: color-mix(in srgb, var(--primary-color) 72%, var(--text-color));
+  white-space: nowrap;
+}
+
+.publication-links a.cited-by::before {
+  content: "✨";
+  margin-right: 0.28em;
+  font-weight: 400;
+}
+
+.publication-links a.cited-by::after {
+  width: 100%;
+  background: var(--primary-color);
+}
+
+.publication-links a.cited-by:hover {
+  color: var(--link-hover-color);
+}
+
+.publication-links a.cited-by:hover::after {
+  background: var(--link-hover-color);
+}
+
 .github-stars {
   color: #000;
   font-size: 0.85rem;
