@@ -302,6 +302,19 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(30, 31, 36, 0.7);
 }
 
+.hobby {
+  white-space: nowrap;
+}
+
+.hobby-icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-left: 0.22em;
+  vertical-align: -0.15em;
+  overflow: visible;
+}
+
 .header-links {
   display: flex;
   gap: 2rem;
